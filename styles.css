@@ -12,7 +12,7 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: var(--text-color)
+  color: var(--text-color);
   background-color: white;
 }
 
@@ -35,7 +35,10 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: white;(--background-color);
+  color: yellow; 
+}
+nav a:hover{
+  background-color: var(--secondary-color);
 }
 
 nav a[aria-current='page'] {
@@ -90,3 +93,4 @@ h1 {
 
 .footer a:hover {
   text-decoration: underline;
+}
